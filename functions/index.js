@@ -59,4 +59,4 @@ app.post('/scream', (req, res) => {
 
 // https://baseurl.com/api/
 
-exports.api = functions.region('us-central1').https.onRequest(app);
+exports.api = functions.https.onRequest(app);
